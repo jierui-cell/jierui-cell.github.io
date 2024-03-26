@@ -1,13 +1,17 @@
 ---
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
+Hi, this is Jierui (pronounced as Je-rry) Xu, currently a senior student studying Computer Science and Biology at UC Berkeley. As an undergraduate researcher at Center of Computational Biology, I worked on ancient DNA projects that try to decipher human evolutionary path and migration history at the Moorjani Lab. 
+
+Over the summer of 2023, I joined Elemento Lab at Weill Cornell Medicine at Manhattan, New York City, where I worked on a precision medicine project to infer drug response in cancer patients by using tumor organoid transcriptomics profiles. That experience really inspires my interest in translational research that focus on caner and other human diseases. 
+
+I always have the faith that one day we can build a complete digital twin of ourselves. Now, I believe studying the human body and human diseases is the best way to achieve such goal. 
 
 A data-driven personal website
 ======
