@@ -7,11 +7,11 @@ redirect_from:
   - /about.html
 ---
 
-Hi, this is Jierui (pronounced as Je-rry) Xu, currently a senior student studying Computer Science and Biology at UC Berkeley. As an undergraduate researcher at Center of Computational Biology, I worked on ancient DNA projects that try to decipher human evolutionary path and migration history at the Moorjani Lab. 
+Hi, this is Jierui Xu (pronounced as Je-rry Shoo), currently a senior student studying Computer Science and Biology at UC Berkeley. As an undergraduate researcher at Center of Computational Biology, I worked at the Moorjani Lab on ancient DNA projects that try to decipher human evolutionary path and migration history. 
 
-Over the summer of 2023, I joined Elemento Lab at Weill Cornell Medicine at Manhattan, New York City, where I worked on a precision medicine project to infer drug response in cancer patients by using tumor organoid transcriptomics profiles. That experience really inspires my interest in translational research that focus on caner and other human diseases. 
+Over the summer of 2023, I joined Elemento Lab at Weill Cornell Medicine at Manhattan, New York City, where I worked on a precision medicine project to infer drug response in cancer patients by using tumor organoid transcriptomics profiles. That experience really inspires my interest in translational research that focus on caner and other human diseases. It is also when I recognized that I am in love with research, and wanted to do a PhD degree eventually. 
 
-I always have the faith that one day we can build a complete digital twin of ourselves. Now, I believe studying the human body and human diseases is the best way to achieve such goal. 
+I always have the faith that one day we can build a complete digital twin of ourselves. Now, I believe **studying the human body and human diseases** is the best way to achieve such goal.
 
 A data-driven personal website
 ======
