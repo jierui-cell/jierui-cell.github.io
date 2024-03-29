@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi, this is Jierui Xu (pronounced as Je-rry Shoo), currently a senior student studying Computer Science and Biology at UC Berkeley. As an undergraduate researcher at Center of Computational Biology, I worked at the Moorjani Lab on ancient DNA projects that try to decipher human evolutionary path and migration history. 
+I am Jierui Xu (pronounced as Je-rry Shoo), currently a senior student studying Computer Science and Biology at UC Berkeley. As an undergraduate researcher at the Center for Computational Biology, I worked at the [Moorjani Lab](https://moorjanilab.org/) on ancient DNA projects that try to decipher human evolutionary path and migration history. 
 
 Over the summer of 2023, I joined Elemento Lab at Weill Cornell Medicine at Manhattan, New York City, where I worked on a precision medicine project to infer drug response in cancer patients by using tumor organoid transcriptomics profiles. That experience really inspires my interest in translational research that focus on caner and other human diseases. It is also when I recognized that I am in love with research, and wanted to do a PhD degree eventually. 
 
