@@ -21,7 +21,7 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "spain_barcelona.jpg"
+  avatar           : "taronga zoo_sydney.jpg"
   name             : "Jierui (Jerry) Xu"
   pronouns         : # example: "she/her"  
   bio              : "Senior student at UC Berkeley, interested in CompBio for better healthcare"
