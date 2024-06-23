@@ -13,7 +13,7 @@ redirect_from:
 Education 
 ======
 * B.A. in Computer Science, University of California, Berkeley, 2024 
-* B.A. in Molecular & Cell Biology, University of California, Berkeley, 2024 
+* B.A. in Molecular & Cell Biology, University of California, Berkeley, 2024  
 Graduate with honors and distinction in both majors. 
 
 Research Experience
