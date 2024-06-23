@@ -10,6 +10,17 @@ redirect_from:
 {% include base_path %}
 [View my resume](/files/Jierui_resume_240305.pdf)
 
+Education 
+======
+* B.A. in Computer Science, University of California, Berkeley, 2024 
+* B.A. in Molecular & Cell Biology, University of California, Berkeley, 2024 
+Graduate with honors and distinction in both majors. 
+
+Research Experience
+======
+* **Computational Biologist**, Schultz Lab, Memorial Sloan Kettering Cancer Center, present
+* **Undergraduate Researcher**, Moorjani Lab, UC Berkeley, 2022-2024
+* **Summer Research Assistant**, Elemento Lab, Weill Cornell Medicine, 2023
 
 <!-- Education
 ======
