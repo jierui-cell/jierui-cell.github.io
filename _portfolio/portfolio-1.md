@@ -1,6 +1,6 @@
 ---
 title: "[Particle-Based Fluid Rendering](https://ewayz-1.github.io/CS184FinalProject-FluidSim/)"
-excerpt: "Fluid and collision simulation with realistic rendering.<br/><img src='/images/FluidSim-project.jpg'>"
+excerpt: "Fluid and collision simulation with realistic rendering.<br/><img src='/images/FluidSim-project.jpg' style='width:500px;height:300px;'>"
 collection: portfolio
 ---
 
