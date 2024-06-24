@@ -1,0 +1,15 @@
+/* Change hyperlink color to dark blue */
+a {
+    color: #0000FF; /* Dark blue color */
+  }
+  
+  /* Change hyperlink color to hyperlink blue */
+  a:hover {
+    color: #0066CC; /* Hyperlink blue color */
+  }
+  
+  /* Change hyperlink size */
+  .page__title a {
+    font-size: 24px; /* Adjust the size as needed */
+  }
+  
