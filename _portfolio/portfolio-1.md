@@ -1,6 +1,6 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "Particle-Based Fluid Rendering"
+excerpt: "Fluid and collision simulation with realistic rendering.<br/><a href='https://ewayz-1.github.io/CS184FinalProject-FluidSim/'><img src='/images/FluidSim-project.jpg'></a>"
 collection: portfolio
 ---
 
