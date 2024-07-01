@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pac-Man Project Strategy Explanation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        h2, h3 {
+            color: #555;
+        }
+        p, ul {
+            color: #666;
+        }
+        ul {
+            margin-left: 20px;
+        }
+        pre {
+            background: #f4f4f4;
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+        .author-info {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="author-info">
+        <p><strong>Authors:</strong> Jierui Xu, and Edison Chen</p>
+        <p><strong>Time:</strong> Summer 2022</p>
+        <p><strong>Course:</strong> CS 188 Introduction to Artificial Intelligence, taught at UC Berkeley</p>
+    </div>
+
+    <h1>Pac-Man Project Strategy Explanation</h1>
+    <h2>Score Calculation</h2>
+    <p>The score in this Pac-Man strategy is calculated based on a linear combination of features and their corresponding weights. The primary goal is to maximize the score by considering both offensive and defensive strategies.</p>
+    <h3>Evaluation Function</h3>
+    <ul>
+        <li>The <code>evaluate</code> function computes the score for each action by combining various features with their respective weights.</li>
+        <li>Formula: <code>score = features * weights</code></li>
+    </ul>
+    <h3>Features and Weights</h3>
+    <ul>
+        <li>Different features are considered for scoring, including the number of remaining food pellets, distance to food, presence of invaders, and proximity to defenders.</li>
+        <li>Example of offensive weights:
+            <pre><code>{'successorScore': 100, 'defense': 0, 'numInvaders': 0, 'distInvader': 0, 'nearDefender': -30, 'distFood': -1, 'carryingRisk': -5, 'distCapsule': -3, 'trap': 1, 'stop': -10, 'reverse': 0}</code></pre>
+        </li>
+        <li>Example of defensive weights:
+            <pre><code>{'successorScore': 0, 'defense': 100, 'numInvaders': -1000, 'distInvader': -10, 'nearDefender': 0, 'distFood': 0, 'carryingRisk': 0, 'distCapsule': 0, 'trap': 0, 'stop': -100, 'reverse': -2}</code></pre>
+        </li>
+    </ul>
+    <h4>Detailed Explanation of Features</h4>
+    <ul>
+        <li><strong>successorScore:</strong> Measures the score of the game state after making a move. Higher scores indicate better states.</li>
+        <li><strong>defense:</strong> Indicates whether the agent is playing a defensive role. A value of 1 means the agent is defending, while 0 means it is not.</li>
+        <li><strong>numInvaders:</strong> Counts the number of enemy agents in the territory. Higher values indicate more invaders.</li>
+        <li><strong>distInvader:</strong> Measures the distance to the nearest enemy invader. Smaller distances are better for defense.</li>
+        <li><strong>nearDefender:</strong> Measures the proximity to enemy defenders. Smaller distances indicate closer defenders, which is risky for the agent.</li>
+        <li><strong>distFood:</strong> Measures the distance to the nearest food pellet. Smaller distances are better for collecting food.</li>
+        <li><strong>carryingRisk:</strong> Evaluates the risk based on the amount of food the agent is carrying and the distance to a safe zone. Higher values indicate greater risk.</li>
+        <li><strong>distCapsule:</strong> Measures the distance to the nearest power capsule. Smaller distances are better for collecting capsules.</li>
+        <li><strong>trap:</strong> Penalizes the agent if it is near a trap (surrounded by walls). A value of -1000 indicates a high penalty.</li>
+        <li><strong>stop:</strong> Penalizes the agent for stopping its movement. A value of 1 means the agent stopped, and it is penalized for it.</li>
+        <li><strong>reverse:</strong> Penalizes the agent for reversing its direction. A value of 1 means the agent reversed, and it is penalized for it.</li>
+    </ul>
+
+    <h2>Strategy Implementation</h2>
+    <p>The author implements a hybrid strategy that switches between offensive and defensive roles based on the game state:</p>
+    <h3>Offensive Strategy</h3>
+    <ul>
+        <li>The agent seeks food and capsules to increase its score.</li>
+        <li>It evaluates the distance to the nearest food and capsules and avoids defenders by using features like <code>distFood</code>, <code>distCapsule</code>, and <code>nearDefender</code>.</li>
+        <li>It considers the risk of being captured when carrying food (<code>carryingRisk</code>).</li>
+    </ul>
+    <h3>Defensive Strategy</h3>
+    <ul>
+        <li>When invaders are detected, the agent switches to defense.</li>
+        <li>It evaluates features like <code>numInvaders</code> and <code>distInvader</code> to focus on repelling enemy agents.</li>
+        <li>It prioritizes returning to a safe position if carrying food or if the number of food pellets is low.</li>
+    </ul>
+
+    <h2>Differences Between Offensive and Defensive Agents</h2>
+    <h3>Offensive Agent</h3>
+    <ul>
+        <li>Focuses on collecting food and capsules.</li>
+        <li>Uses features that help it navigate towards food while avoiding defenders.</li>
+        <li>Penalizes actions like stopping or moving in the reverse direction, which could make it easier for defenders to catch it.</li>
+    </ul>
+    <h3>Defensive Agent</h3>
+    <ul>
+        <li>Focuses on preventing enemy agents from scoring.</li>
+        <li>Uses features that help it locate and chase invaders.</li>
+        <li>Penalizes stopping and reversing to ensure it stays proactive in defending the territory.</li>
+        <li>Prioritizes actions that bring it closer to invaders and blocks them from reaching the food.</li>
+    </ul>
+</body>
+</html>
