@@ -17,7 +17,7 @@ Education
 
 Research Experience
 ======
-* **Computational Biologist**, Schultz Lab, Memorial Sloan Kettering Cancer Center, present
+* **Computational Biologist**, Schultz Lab, Memorial Sloan Kettering Cancer Center
 * **Undergraduate Researcher**, Moorjani Lab, UC Berkeley, 2022-2024
 * **Summer Research Assistant**, Elemento Lab, Weill Cornell Medicine, 2023
 
